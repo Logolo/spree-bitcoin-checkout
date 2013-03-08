@@ -1,2 +1,2 @@
-class SpreeBitcoinCheckoutHooks < Spree::ThemeSupport::HookListener
+class SpreeBitcoinCheckoutHooks < Spree::Deface::HookListener
 end
