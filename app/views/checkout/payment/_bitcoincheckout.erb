@@ -1,10 +1,2 @@
-<% title = "Checkout with Bitcoin !" -%>
-
-<%=
-  image_submit_tag( "bitcoin.jpg",
-    :name => "Bitcoin Checkout",
-    :alt => title,
-    :title => title,
-    :name => "bitcoin_payment"
-  )
-%>
+<% title = Spree.t(:bitcoin_image_title) -%>
+<%= image_submit_tag('bitcoin.jpg', name: 'bitcoin_payment', alt: title, title: title) %>
