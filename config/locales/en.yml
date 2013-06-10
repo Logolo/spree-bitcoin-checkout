@@ -1,0 +1,5 @@
+---
+en:
+  spree:
+    bitcoin: Bitcoin
+    bitcoin_image_title: "Checkout with Bitcoin!"
